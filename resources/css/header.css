@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+    header .flex:first-child {
+        flex-direction: column;
+    }
+
+    header.px-16 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .header-bg-1 {
+        background-size: cover;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header-bg-2 {
+        width: 280px;
+        height: 180px;
+    }
+
+    .header-bg-3 {
+        width: 280px;
+        height: 180px;
+    }
+}

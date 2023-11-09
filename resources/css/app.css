@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+::selection {
+    background-color: #FFD333;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: #FFD333;
+    color: white;
+}
+
+.content {
+    max-width: 1700px !important;
+    margin: 0 auto;
+}
+
+.text-yellow {
+    color: #FFD333;
+}
+
+.bg-yellow {
+    background-color: #FFD333;
+}
+
+.text-yellow-hover:hover {
+    color: #FFD333;
+}
+
+.header-bg-1 {
+    background: url("../../public/assets/image/carousel-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 900px;
+    height: 435px;
+}
+
+.header-bg-2 {
+    background: url("../../public/assets/image/offer-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 200px;
+}
+
+.header-bg-3 {
+    background: url("../../public/assets/image/offer-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 200px;
+}
+
+.bg-black-opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-products {
+    width: 580px;
+    height: 300px;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    color: #FFD333;
+}

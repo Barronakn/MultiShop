@@ -1,0 +1,34 @@
+@media screen and (max-width: 1200px) {
+    footer .flex:first-child {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    footer .flex:first-child,
+    footer .footer-b {
+        flex-direction: column;
+    }
+
+    footer .footer-b {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .width {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    footer.px-20 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

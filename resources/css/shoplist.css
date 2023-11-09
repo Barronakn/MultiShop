@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+    .shoplist .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .shoplist.px-20 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shoplist .grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .shoplist .shop {
+        flex-direction: column;
+    }
+
+    .w-25,
+    .w-75 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {}

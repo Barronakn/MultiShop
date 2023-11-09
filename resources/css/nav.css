@@ -1,0 +1,31 @@
+@media screen and (max-width: 920px) {
+    .nav-bar .justify-between {
+        justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar .justify-between {
+        padding-top: 1.25rem;
+    }
+
+    .nav-bar .justify-between {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .text-3xl {
+        font-size: 20px;
+    }
+}
